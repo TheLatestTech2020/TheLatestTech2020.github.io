@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Landing Page*/
+.landingPage {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    color: black;
+    text-transform: uppercase;
+    background-image: linear-gradient(white,white);
+}
+
+.landingPage h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .3rem;
+}
+
+.section1 {
+    background-color: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.notified {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left, .right, .middle {
+    color: black;
+    text-align: center;
+    width: 33%;
+}
+
+.left h3, .right h3, .middle h3 {
+    padding-top: 10px;
+}
+
+.row:after {
+    text-align: center;
+    content: "";
+    font-size: 3rem;
+    display: table;
+    clear: both;
+    color: black;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    padding: 10px;
+}
+
+.column1 h2 {
+    padding-bottom: 10px;
+}
+
+.left1, .right1 {
+    text-align: center;
+    width: 50%;
+}
+
+.row1:after {
+    text-align: center;
+    content: "";
+    font-size: 3rem;
+    display: table;
+    clear: both;
+    color: black;
+}
+
+.social {
+    float: left;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 10px;
+    display: inline;
+}
+
+.social, .contact {
+    width: 50%
+}
+
+.row2:after {
+    text-align: center;
+    content: "";
+    display: table;
+    clear: both;
+    color: black;
+}
